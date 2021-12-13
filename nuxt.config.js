@@ -50,6 +50,8 @@ export default {
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
+    // Simple usage
+    '@nuxtjs/vuetify',
     // https://go.nuxtjs.dev/vuetify
     ['@nuxtjs/vuetify', {
       customVariables: ['~/assets/scss/vuetify/variables/_index.scss'],
